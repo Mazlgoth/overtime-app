@@ -5,8 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '2.4.1'
-
 gem 'rails', '~> 5.2.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
@@ -39,4 +37,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise', '~> 4.4', '>= 4.4.3'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'bootstrap-sass', '~> 3.3.6'
+
+ruby '2.4.1'

@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require jquery3
+//= require gritter
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks

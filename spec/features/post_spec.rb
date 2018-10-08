@@ -90,8 +90,7 @@ describe 'navigate' do
     end
 
     it 'cannot be edited by a non admin user' do
-      loggout(:user)
-
+      logout(:user)
       non_authorized_user = FactoryBot.create(:non_authorized_user)
       login_as(non_authorized_user, :scope => :user)
 

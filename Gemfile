@@ -44,6 +44,6 @@ gem 'gritter', '~> 1.2'
 gem 'administrate', '~> 0.10.0'
 gem 'bourbon', '~> 5.1'
 gem 'pundit', '~> 2.0'
-gem 'puma', '~> 3.4'
+
 
 ruby '2.4.1'

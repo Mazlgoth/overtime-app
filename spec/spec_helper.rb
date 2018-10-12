@@ -8,7 +8,7 @@ RSpec.configure do |config|
   end
 
   config.before(:each) do
-    stub_const("SmsTool", FackeSMS)
+    stub_const("SmsTool", FackeSms)
   end
 
   config.shared_context_metadata_behavior = :apply_to_host_groups

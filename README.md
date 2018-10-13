@@ -20,5 +20,11 @@
 - Icons from Font Awesome
 - x Update the styles for forms
 
-## Refactor TODOS: 
-- refactor posts/_form for admin user with status
+## TODOS:
+- Integrate validation for phone attr in User
+	- # No spaces or dashes
+  	# Exactaly 10 charactures
+  	# All characters have to be a number
+  	# number: "555-555-5555"  BAD
+  	# number: "5555555555" GOOD 
+

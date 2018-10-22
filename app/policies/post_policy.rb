@@ -5,7 +5,7 @@ class PostPolicy < ApplicationPolicy
   end
 
   def approve?
-    adimn?
+    admin?
   end
 
   private

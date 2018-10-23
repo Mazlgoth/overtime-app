@@ -12,4 +12,16 @@ namespace :notification do
 
   end
 
+  desc "Sends mail notification to managers (admin users) eash dat to inform of pending overtime requests"
+  task manager_email: :environment do
+    submitted_post - Post.submitted
+    admin_users = AdminUsers.all
+
+    if submitted_post.count > 0
+      admin_users.each do |admin|
+        ManagerMailer.email(admin.email).deliver_later
+      end
+    end
+  end
+
 end

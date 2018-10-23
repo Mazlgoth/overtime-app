@@ -19,7 +19,7 @@ namespace :notification do
 
     if submitted_post.count > 0
       admin_users.each do |admin|
-        ManagerMailer.email(admin.email).deliver_later
+        ManagerMailer.email(admin).deliver_later
       end
     end
   end

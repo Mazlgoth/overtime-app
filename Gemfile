@@ -48,6 +48,7 @@ gem 'twilio-ruby', '~> 5.14', '>= 5.14.1'
 gem 'dotenv-rails', '~> 2.5'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'rails_12factor'
+gem 'webpacker', require: false
 
 
 ruby '2.4.1'

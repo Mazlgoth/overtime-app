@@ -15,7 +15,7 @@
 - x Block non admin and guest users
 - x Email summary to managers for approval
 - x Needs to be documented if employee did not log overtime
-- Need to update end_Date when confirmed
+- x Need to update end_Date when confirmed
 - need to update audit log status when an overtime is rejected
 - home icon
 - update buttons on employee homepage

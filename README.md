@@ -16,11 +16,11 @@
 - x Email summary to managers for approval
 - x Needs to be documented if employee did not log overtime
 - x Need to update end_Date when confirmed
-- need to update audit log status when an overtime is rejected
+- x need to update audit log status when an overtime is rejected
 - home icon
-- update buttons on employee homepage
-- update buttons to show full time span
-- update buttton sort order on employee homepage
+- x update buttons on employee homepage
+- x update buttons to show full time span
+- x update buttton sort order on employee homepage
 - remove unnecessary tabs for admin home page
 - Fix admin dashboard bug
 - Implement Hunnybadger error reporting
